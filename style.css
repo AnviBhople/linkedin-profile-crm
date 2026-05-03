@@ -1,0 +1,37 @@
+#my-linkedin-note {
+	background: white;
+	border: 2px solid #0a66c2;
+	border-radius: 8px;
+	padding: 15px;
+	margin: 10px 0;
+	z-index: 9999;
+}
+
+#note-text {
+	width: 100%;
+	height: 80px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	font-family: Arial, sans-serif;
+}
+
+#save-note-btn {
+	background-color: #0a66c2;
+	color: white;
+	border: none;
+	padding: 5px 15px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+#save-note-btn:hover {
+	background-color: #004182;
+}
+
+#status-msg {
+	color: green;
+	font-size: 12px;
+	margin-top: 5px;
+}

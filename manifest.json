@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "LinkedIn Pro Notetaker",
+	"version": "1.2",
+	"permissions": ["storage"],
+	"icons": {
+		"128": "icon128.png"
+	},
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": "icon128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*.linkedin.com/in/*"],
+			"js": ["content.js"],
+			"run_at": "document_end"
+		}
+	]
+}
