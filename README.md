@@ -1,6 +1,4 @@
 # linkedin-profile-crm
-# LinkedIn Profile Intelligence 
-
 
 
 ### Problem
